@@ -35,7 +35,7 @@ L'un des défis majeurs des Transformers est l'interprétabilité. Nous visualis
 | **DeIT** | **~60%** | Attention plus focalisée sur l'objet à reconnaître. |
 
 ### Exemple de Carte d'Attention (DeiT)
-![Attention Map](CHEMIN_VERS_TON_IMAGE_ATTENTION_MAP.png)
+![Attention Map](deer_diffus.png)
 *On observe que le modèle parvient à isoler l'objet (ex: le chien) du fond, guidé par la distillation.*
 
 ## Structure du dépôt
