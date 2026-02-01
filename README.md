@@ -29,7 +29,7 @@ Ce projet est conçu pour être exécuté directement sur **Google Colab**.
 
 L'un des défis majeurs des Transformers est l'interprétabilité. Nous visualisons ici comment le mécanisme d'attention (Self-Attention) se focalise sur l'image.
 
-### Exemple de Carte d'Attention (DeiT)
+### Exemple de Carte d'Attention
 ![Attention Map](deer_diffus.png)
 
 ![Attention Map](output.png)
