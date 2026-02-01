@@ -29,21 +29,11 @@ Ce projet est conçu pour être exécuté directement sur **Google Colab**.
 
 L'un des défis majeurs des Transformers est l'interprétabilité. Nous visualisons ici comment le mécanisme d'attention (Self-Attention) se focalise sur l'image.
 
-| Modèle | Précision (Accuracy) | Observation |
-|/---|---|---|
-| ViT Baseline | ~60% | Attention diffuse, apprentissage difficile. |
-| **DeIT** | **~60%** | Attention plus focalisée sur l'objet à reconnaître. |
-
 ### Exemple de Carte d'Attention (DeiT)
 ![Attention Map](deer_diffus.png)
 
 ![Attention Map](output.png)
 *On observe que l'attention du modèle change en fonction de la méthode utilisée. Le notebook analyse ses changements.*
-
-## Structure du dépôt
-* `DViT_Manciet_demo_version.ipynb` : Le code complet (Modèles, Entraînement, Visu).
-* `*.pth` : Les poids des modèles entraînés (téléchargés automatiquement par le notebook).
-* `images/` : Schémas et captures d'écran pour ce README.
 
 ## Références
 * *An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale* (Dosovitskiy et al., 2020)
