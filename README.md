@@ -36,7 +36,8 @@ L'un des défis majeurs des Transformers est l'interprétabilité. Nous visualis
 
 ### Exemple de Carte d'Attention (DeiT)
 ![Attention Map](deer_diffus.png)
-*On observe que le modèle parvient à isoler l'objet (ex: le chien) du fond, guidé par la distillation.*
+![Attention Map](ouputs.png)
+*On observe que l'attention du modèle change en fonction de la méthode utilisée. Le notebook analyse ses changements.*
 
 ## Structure du dépôt
 * `DViT_Manciet_demo_version.ipynb` : Le code complet (Modèles, Entraînement, Visu).
